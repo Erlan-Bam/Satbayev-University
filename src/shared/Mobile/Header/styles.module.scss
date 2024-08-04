@@ -1,0 +1,15 @@
+.header {
+  width: 100%;
+
+  &__container {
+    display: flex;
+    padding: clamp(8px, 3.73824vw, 32px) clamp(10px, 4.6728vw, 40px);
+    justify-content: space-between;
+    align-items: center;
+
+    &__logo {
+      width: clamp(50px, 23.363999999999997vw, 200px);
+      height: clamp(50px, 23.363999999999997vw, 200px);
+    }
+  }
+}
